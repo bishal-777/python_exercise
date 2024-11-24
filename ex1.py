@@ -25,3 +25,28 @@ elif is_cold:
     print("It's a cold day")
 else:
     print("It's a mild day")
+
+i=1
+while i<=5:
+ print(i)
+ i+=1
+print("-----")
+
+students=['Ram','Shyam','Hari']
+for i in students:
+    print(i)
+for i in range(2,9,2):
+    print (i)
+
+matrix=[[1,2,3],[4,5,6],[7,8,9]]
+matrix[1][1]=99
+print(matrix[1][1])
+
+num=[2,7,4,1,9]
+num2=num.copy()
+num.append(67)
+num.insert(2,76)
+num.pop()
+num.sort()
+print(num)
+print(num2)

@@ -1,3 +1,4 @@
+#name checker
 name=input("Enter your name:")
 temp=len(name)
 if temp<3:
